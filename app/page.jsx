@@ -44,7 +44,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex w-1/2 h-[400px] ml-auto mr-0">
+            <div className="flex w-1/2 h-[400px] xl:ml-auto mr-0">
               <Canvas
                 camera={{ fov: 50, position: [0, 0, 376] }}
                 dpr={[1, 1.5]}

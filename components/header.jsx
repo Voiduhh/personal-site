@@ -13,7 +13,7 @@ const socials = [
 const Header = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto px-6 flex justify-between items-center">
         <div class="spinner">
           <div></div>
           <div></div>

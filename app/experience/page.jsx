@@ -62,7 +62,8 @@ const ed = {
 
 const skills = {
   title: "My Skills",
-  description: "Testing this method",
+  description:
+    "These are the skills I have learned over the course of my career and education",
   items: [
     {
       icon: <FaHtml5 />,

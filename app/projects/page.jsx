@@ -13,7 +13,7 @@ const githubProjects = [
   {
     title: "Portfolio Site",
     link: "https://github.com/Voiduhh/personal-site",
-    image: "site_image.png",
+    image: "/site_image.png",
     description:
       "This sites github repository. Used for people to see how I created this site and use it as inspiration",
   },
@@ -55,6 +55,8 @@ const Projects = () => {
                 </CardHeader>
                 <CardContent>
                   <Image
+                    width={250}
+                    height={250}
                     className={
                       project.image.length === 0
                         ? "hidden"
