@@ -19,7 +19,7 @@ const Contact = () => {
         <ul>
           <li className="flex gap-4 mb-6 justify-left items-center">
             <MdEmail className="text-2xl" />
-            <p>jpik@yahoo.com</p>
+            <p>jpik98@yahoo.com</p>
           </li>
           <li className="flex gap-4 mb-6 justify-left items-center">
             <FaLinkedinIn className="text-2xl" />

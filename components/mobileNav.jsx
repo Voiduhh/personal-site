@@ -40,10 +40,9 @@ const MobileNav = () => {
         <nav className="flex flex-col justify-right items-end gap-8">
           {links.map((link, index) => {
             return (
-              <SheetClose asChild>
+              <SheetClose key={index} asChild>
                 <Link
                   href={link.path}
-                  key={index}
                   className={`${
                     link.path === pathName &&
                     "text-accent  border-b-2 border-accent"
