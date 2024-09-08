@@ -20,7 +20,7 @@ const Home = () => {
         }}
       >
         <div className="container mx-auto h-full">
-          <div className="flex flex-col xl:flex-row items-center justify-between">
+          <div className="flex flex-col mx-6 xl:flex-row items-center justify-between">
             <div className="text-center xl:text-left">
               <span className="text-xl">Software Developer</span>
               <h1 className="h1 mb-6">
@@ -44,7 +44,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            <div className="flex w-1/2 h-[400px] xl:ml-auto mr-0">
+            <div className="flex flex-col ml-auto w-screen scale-75 h-[400px] xl:ml-auto xl:mr-0 xl:w-1/2 xl:scale-100">
               <Canvas
                 camera={{ fov: 50, position: [0, 0, 376] }}
                 dpr={[1, 1.5]}

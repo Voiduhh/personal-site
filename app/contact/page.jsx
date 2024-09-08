@@ -12,7 +12,7 @@ const Contact = () => {
         opacity: 1,
         transition: { delay: 0.5, duration: 0.5, ease: "easeInOut" },
       }}
-      className="container mx-auto grid grid-cols-2 h-[80vh] py-12 xl:py-0"
+      className="container mx-auto grid grid-cols-1 h-[80vh] py-12 px-6 gap-2 xl:grid-cols-2 xl:py-0 xl:px-0"
     >
       <div className="flex flex-col w-full mx-auto justify-start items-start">
         <h3 className="font-bold text-4xl mb-8">Contact Me</h3>
